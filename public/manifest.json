@@ -1,0 +1,21 @@
+{
+  "short_name": "தமிழ் கற்றி",
+  "name": "தமிழ் வழி பலமொழி கற்றல் (Tamil Multilingual Learner)",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,41 @@
+name: tamil_multilingual_learner
+description: "Build a 100% Offline Tamil-Based Multilingual Language Learning Mobile App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  drift: ^2.14.1
+  sqlite3_flutter_libs: ^0.5.18
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  flutter_tts: ^3.8.5
+  speech_to_text: ^6.6.0
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.14.1
+  build_runner: ^2.4.8
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content/ta_en/
+    - assets/content/ta_ml/
+    - assets/content/ta_hi/
+    - assets/content/ta_te/
+    - assets/content/ta_kn/
+    - assets/audio/ta_en/
+    - assets/audio/ta_ml/
+    - assets/audio/ta_hi/
+    - assets/audio/ta_te/
+    - assets/audio/ta_kn/
